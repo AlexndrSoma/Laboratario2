@@ -1,0 +1,24 @@
+
+tr.par td:nth-child(2n){
+    background: #000;
+    width: 60px;
+    height: 60px;
+   
+}
+
+tr.impar td:nth-child(2n+1){
+    background: #000;
+    width: 60px;
+    height: 60px;
+}
+
+td p{
+visibility: hidden;
+background-color: rgba(255, 0, 0, 0.5);
+padding: 30px;
+
+}
+
+td:hover p{
+    visibility: visible
+}
